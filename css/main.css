@@ -124,16 +124,17 @@ PRELOADER
   border: 1px solid transparent;
   background-size: cover;
   position: relative;
-  height: 30%;/*35% 35vh*/
+  height: 240px;/*30% 35% 35vh*/
 }
 .home .big-title {
   text-align: center;
   position: relative;
-  top: 40%;
+  top: 80px; /*40%*/
   -webkit-transform: translate(0, -35%);
   -ms-transform: translate(0, -35%);
   transform: translate(0, -35%);
   color:white !important;
+  display:block;
 }
 .home .big-head {
   text-transform: uppercase;
@@ -187,7 +188,8 @@ PRELOADER
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  top: 24%;/*24%  6vh*/
+  top: 40px;/*24%  6vh*/
+  display:block;
 }
 .home .cv-btn a {
   color: #fff;
