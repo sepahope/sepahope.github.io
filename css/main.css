@@ -218,7 +218,7 @@ padding-bottom: 7px;
   font-size: 1.5em;
   color: #73618F;
   font-weight: bold;
-  border: 3px solid #CEC8D9;
+  border: 1.5px solid #73618F;/*#CEC8D9;*/
   border-radius: 5px;
   padding: 7px 20px;
   padding-top: 7px;
@@ -226,12 +226,12 @@ padding-bottom: 7px;
   display: inline-block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  background: #F4EEFF;
+  background: #F0F0F5;/*#EEEEFF;#F4EEFF;*/
 }
 .portfolio .launchFixit:hover {
   color: white;
   background: #73618F;/*#fff*//*#DFCAFF*/
-  border: 3px solid #73618F;
+  border: 1.5px solid #73618F;
 }
 
 .home .learn-more {
